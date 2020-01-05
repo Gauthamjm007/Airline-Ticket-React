@@ -1,0 +1,13 @@
+.ticket_list {
+  flex: 0 0 75%;
+  max-width: 75%;
+  padding-left: 30px;
+}
+
+@media only screen and (max-width: 767.8px) {
+  .ticket_list {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-left: 0;
+  }
+}

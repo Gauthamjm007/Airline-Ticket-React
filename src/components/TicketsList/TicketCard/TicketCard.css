@@ -1,0 +1,160 @@
+.ticket_card {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+  margin-bottom: 30px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.ticket_bay {
+  text-align: center;
+  flex: 0 0 40%;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+
+.bay_logo {
+  width: 80%;
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.bay_btn {
+  background-color: #fb6f3f;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  max-width: 180px;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.bay_btn:hover {
+  background-color: #fc823f;
+}
+
+.ticket_info {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex: 0 0 60%;
+  text-align: left;
+}
+
+.time {
+  font-size: 30px;
+}
+
+.place {
+  font-size: 16px;
+  margin: 6px 0 4px;
+}
+
+.date {
+  font-size: 16px;
+  font-weight: 300;
+  color: #ccc;
+}
+
+.text_right {
+  text-align: right;
+}
+
+.stops {
+  position: relative;
+  display: block;
+}
+
+.stops {
+  display: block;
+  margin-top: 4px;
+}
+
+.stops img {
+  position: absolute;
+  top: 20px;
+  left: -20px;
+  width: calc(100% + 40px);
+}
+
+@media only screen and (max-width: 991.8px) {
+  .ticket_bay {
+    flex: 0 0 35%;
+    padding: 20px 15px;
+  }
+
+  .bay_btn {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .ticket_info {
+    padding: 20px 15px;
+    flex: 0 0 65%;
+  }
+
+  .time {
+    font-size: 24px;
+  }
+
+  .place {
+    font-size: 12px;
+  }
+
+  .date {
+    font-size: 12px;
+  }
+
+  .text_right {
+    text-align: right;
+  }
+
+  .stops {
+    font-size: 12px;
+  }
+
+  .stops img {
+    top: 14px;
+    left: -15px;
+    width: calc(100% + 30px);
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .ticket_card {
+    margin-bottom: 20px;
+  }
+
+  .ticket_bay {
+    flex: 0 0 100%;
+    padding: 10px;
+    border-right: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .bay_logo {
+    width: 40%;
+    max-width: 100px;
+    margin-bottom: 0;
+  }
+
+  .bay_btn {
+    width: 50%;
+    max-width: 130px;
+  }
+
+  .ticket_info {
+    padding: 10px;
+    flex: 0 0 100%;
+  }
+
+  .stops {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,11 @@
+export const DEFAULT_CURRENCY = "INR";
+export const CURRENCY_API = "https://api.exchangeratesapi.io";
+
+export const GET_TICKETS = "GET_TICKETS";
+export const GET_CURRENCY_RATE = "GET_CURRENCY_RATE";
+export const INITIALIZE_ERROR = "INITIALIZE_ERROR";
+
+export const FILTER_SET_ACTIVE_CURRENCY = "FILTER_SET_ACTIVE_CURRENCY";
+export const FILTER_ONE_MORE_STOP = "FILTER_ONE_MORE_STOP";
+export const FILTER_SHOW_ALL_STOPS = "FILTER_SHOW_ALL_STOPS";
+export const FILTER_ONLY_ONE_STOP = "FILTER_ONLY_ONE_STOP";
